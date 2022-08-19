@@ -1,6 +1,5 @@
 export default function initFetchBitcoin() {}
 const btcPriceSpan = document.querySelector(".btc-price");
-console.log(btcPriceSpan);
 function fetchBitcoin() {
   const myF = fetch("https://blockchain.info/ticker");
   myF
